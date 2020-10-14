@@ -1,0 +1,158 @@
+{
+  "displayText" : {
+  	"group" : "Fields",
+    "type" : "text",
+    "label" : "Display text",
+    "value" : "{{name}} &times {{amount}}"
+  },
+  "metric": {
+    "group" : "Fields",
+    "type": "dropdown",
+    "label": "Choose metric",
+    "value": "follower",
+    "options": {
+      "follower" : "Follower",
+      "subscriber" : "Subscriber",
+      "cheer" : "Cheer",
+      "tip" : "Tip"
+    }
+  },
+  "metricType" : {
+    "group" : "Fields",
+    "type" : "dropdown",
+    "label" : "Choose metric type",
+    "value" : "name",
+    "options" : {
+      "name" : "Name",
+      "sum" : "Sum"
+    }
+  },
+  "timePeriod": {
+    "group" : "Fields",
+    "type": "dropdown",
+    "label": "Choose time:",
+    "value": "total",
+    "options" : {
+      "total" : "All time",
+      "month" : "Month",
+      "week" : "Week",
+      "session" : "Session"
+    }
+  },
+  "fontFamily" : {
+    "group" : "Text",
+    "type" : "googleFont",
+    "value" : "Montserrat"
+  },
+   "fontColor": {
+    "group": "Text",
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "#FFFFFF"
+  },
+  "fontSize": {
+    "group": "Text",
+  	"type": "number",
+    "label": "Text font size (px)",
+    "value": 80
+  },
+  "fontWeight": {
+    "group": "Text",
+  	"type": "dropdown",
+    "label": "Font weight",
+    "value": "400",
+    "options": {
+      "100": "100 - Thin",
+      "300": "300 - Light",
+      "400": "400 - Regular",
+      "500": "500 - Medium",
+      "700": "700 - Bold",
+      "900": "900 - Black"
+    }
+  },
+  "textShadow": {
+    "group": "Text",
+    "type": "text",
+    "label": "Text shadow",
+    "value": "2px 2px 2px rgba(0,0,0,0.7)"
+  },
+  "textTransform": {
+    "group": "Text",
+  	"type": "dropdown",
+    "label": "Text transform",
+    "value": "uppercase",
+    "options": {
+      "uppercase": "Uppercase",
+      "lowercase": "Lowercase",
+      "none": "None"
+    }
+  },
+  "icon" : {
+    "group" : "Icon",
+    "type" : "image-input",
+    "label" : "Select icon"
+  },
+  "iconHeight" : {
+    "group" : "Icon",
+    "type" : "number",
+    "label" : "Icon height (px)",
+    "value" : 80
+  },
+  "iconWidth" : {
+    "group" : "Icon",
+    "type" : "number",
+    "label" : "Icon Width (px)",
+    "value" : 80
+  },
+  "iconLeft" : {
+    "group" : "Icon",
+    "type" : "number",
+    "label" : "Icon left margin (px)",
+    "value" : 0
+  },
+  "dividerWidth" : {
+    "group" : "Divider",
+    "type" : "number",
+    "label" : "Width of divider (px)",
+    "value" : 10
+  },
+  "dividerHeight" : {
+    "group" : "Divider",
+    "type" : "number",
+    "label" : "Height of divider (px)",
+    "value" : 80
+  },
+  "dividerLeft" : {
+    "group" : "Divider",
+    "type" : "number",
+    "label" : "Margin left of divider (px)",
+    "value" : 10
+  },
+  "dividerRight" : {
+    "group" : "Divider",
+    "type" : "number",
+    "label" : "Margin right of divider (px)",
+    "value" : 10
+  },
+  "animationSpeed" :{
+  	"group" : "Animation",
+  	"type" : "number",
+  	"label" : "Animation speed (px/s)",
+    "value" : 240
+  },
+  "animationFunction" :{
+  	"group" : "Animation",
+  	"type" : "dropdown",
+  	"label" : "Animation timing function",
+    "value" : "linear",
+    "options" : {
+      "linear" : "Linear",
+      "ease" : "Ease",
+      "ease-in" : "Ease-in",
+      "ease-out" : "Ease-out",
+      "ease-in-out" : "Ease-in-out",
+      "step-start" : "Step-start",
+      "step-end" : "Step-end"
+    }
+  }
+}
